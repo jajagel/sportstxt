@@ -1,0 +1,186 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  padding: 20px 0 20px 0;
+}
+header {
+  background-color: white;
+}
+.logo,
+.contact img {
+  max-height: 40px;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+  border: none !important;
+  outline: none !important;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #015ca8;
+  text-underline-offset: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.links a {
+  text-decoration: none;
+  color: #444444;
+}
+.box {
+  height: 90px;
+}
+.hero {
+  background-image: url("../img/hero.webp");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(80%);
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.get-in-touch {
+  background-image: url("../img/stand.webp");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-bg {
+  background-image: url("../img/stand.webp");
+  background-size: cover;
+  background-position: center;
+  align-items: start;
+}
+.contact-form {
+  background-color: rgba(255, 255, 255, 0.24);
+  border-radius: 12px;
+}
+.hero h1,
+.cta h2,
+.section h2,
+.about h1,
+.people-item h5,
+.get-in-touch h1,
+.contact h1,
+.contact h2,
+.features h1,
+.features h3 {
+  max-width: 700px;
+  font-weight: 700;
+  line-height: 140%;
+}
+.cta p {
+  max-width: 700px;
+  line-height: 140%;
+  text-align: center;
+}
+.btn {
+  background-color: #e61a27;
+  color: white;
+  border-radius: 9999px;
+  padding: 8px 24px;
+}
+.btn:hover {
+  background-color: #e61a27;
+  color: white;
+}
+.section1 {
+  background-color: #131313;
+  border-radius: 12px;
+  color: #f4f4f4;
+}
+.section2 {
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  color: #131313;
+}
+.section3 {
+  background-image: url("../img/fans.webp");
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  border-radius: 12px;
+  filter: brightness(60%);
+  filter: saturate(60%);
+}
+.features p {
+  max-width: 600px;
+  text-align: center;
+}
+.about p {
+  max-width: 900px;
+  text-align: center;
+}
+.people-item img {
+  max-height: 360px;
+}
+.feature-item p {
+  text-align: left;
+}
+.feature-item img {
+  height: 88px;
+}
+.mb-5 {
+  padding-bottom: 32px;
+}
+.mt-5 {
+  padding-top: 32px;
+}
+.mb-4 {
+  padding-bottom: 28px;
+}
+.mb-3 {
+  padding-bottom: 20px;
+}
+.mb-2 {
+  padding-bottom: 12px;
+}
+.mt-4 {
+  padding-top: 28px;
+}
+.platform-icon {
+  height: 80px;
+}
+input[type="text"] {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 500;
+  border-bottom: 2px solid white;
+  padding: 8px 0;
+  width: 100%;
+}
+input[type="text"]::placeholder {
+  color: white;
+}
+textarea {
+  background-color: white;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 12px;
+  padding: 20px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+textarea::placeholder {
+  color: #4e4e4e;
+}
